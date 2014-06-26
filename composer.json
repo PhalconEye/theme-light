@@ -1,0 +1,21 @@
+{
+    "name": "phalconeye/theme-light",
+    "type": "phalconeye-theme",
+    "description" : "PhalconEye Light Theme",
+    "keywords" : [ "phalcon", "phalconeye", "theme" ],
+    "homepage" : "http://phalconeye.com",
+    "license" : "BSD-3-Clause",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/PhalconEye/theme-default.git"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.4.20",
+        "phalconeye/theme-default": "0.5.0.*@dev"
+    },
+    "extra": {
+        "name": "light"
+    }
+}
